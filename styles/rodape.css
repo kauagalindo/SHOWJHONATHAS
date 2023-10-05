@@ -1,0 +1,139 @@
+.hr {
+    margin: 0em;
+}
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1em;
+    border-radius: 6px;
+}
+
+.rodapé__titulo {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.rodapé {
+    display: flex;
+    justify-content: space-around;
+    height: 390px;
+}
+
+.lista-rodapé__item {
+    display: flex;
+    align-items: center;
+    margin-left: 0.6;
+}
+
+.lista-rodapé__link {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.lista__rodapé__titulo {
+    color: var(--cinza);
+    font-size: 22px;
+    margin-bottom: 0.6cm;
+    font-weight: 300;
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .lista__rodapé {
+        margin-left: 2em;
+    }
+
+    .comunidade  {
+        margin-left: 2em;
+    }
+
+    .rodapé {
+        display: flex;
+        justify-content: space-around;
+        height: 420px;
+    }
+
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+        margin-left: 0.6;
+    }
+
+    .lista-rodapé__link {
+        text-decoration: none;
+        color: var(--cinza);
+        font-size: 12px;
+    }
+
+    .lista__rodapé__titulo {
+        color: var(--cinza);
+        font-size: 12px;
+        margin-bottom: 0.6cm;
+        font-weight: 300;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+.lista-rodapé {
+    border-left: 1px solid gray;
+    padding-left: 1em;
+
+}
+
+.rodapé {
+
+    padding: 3em 0 ;
+
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        display: flex;
+        justify-content: space-around;
+        height: 390px;
+    }
+
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+        margin-left: 0.6;
+    }
+
+    .lista-rodapé__link {
+        text-decoration: none;
+        color: var(--cinza);
+    }
+
+    .lista__rodapé__titulo {
+        color: var(--cinza);
+        font-size: 22px;
+        margin-bottom: 0.6cm;
+        font-weight: 300;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+.lista-rodapé {
+    border-left: 1px solid gray;
+    padding-left: 1em;
+
+}
+
+.rodapé {
+
+    padding: 3em 0 ;
+
+}
+
+}
+

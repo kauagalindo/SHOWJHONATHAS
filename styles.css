@@ -1,0 +1,38 @@
+
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+@import url("styles/complementos.css");
+@import url("styles/desafio.css");
+@import url("styles/card.css");
+
+:root {
+    --cor-de-fundo: #494949;
+    --branco: #FFFFFF;
+    --roxo: #983baa;
+    --azul-degrade: linear-gradient(97.54deg, #cc5fb4 35.49%, #f09fde 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #4b1166;
+    --fonte-secundaria: "Josefin Sans";
+    --preto: #000000;
+    --fonte-terciaria: "Young Serif";
+    --dourado:  #d1aa1b;
+    --cinza: gray;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+} 
+
+
+
+@media screen and (max-width: 1024px) {
+        
+
+}
